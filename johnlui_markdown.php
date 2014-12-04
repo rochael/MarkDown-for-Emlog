@@ -19,5 +19,5 @@ function johnlui_markdown() {
 }
 
 function johnlui_markdown_css() {
-  echo '<link rel="stylesheet" href="/content/plugins/johnlui_markdown/styles/markdown.css">';
+  echo '<link rel="stylesheet" href="'.BLOG_URL.'content/plugins/johnlui_markdown/styles/markdown.css">';
 }
